@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizador de Partituras CPDL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Catálogo de Músicas Sacras</h1>
+            <p>Uma coleção de partituras do Choral Public Domain Library (CPDL)</p>
+        </header>
+        <main>
+            <div class="music-list-container">
+                <h2>Músicas</h2>
+                <input type="text" id="searchInput" placeholder="Buscar por título ou autor...">
+                <ul id="musicList">
+                    <!-- A lista de músicas será inserida aqui via JavaScript -->
+                </ul>
+            </div>
+            <div class="pdf-viewer-container">
+                <h2>Visualizador de Partitura</h2>
+                <div id="pdfViewer">
+                    <p>Selecione uma música para visualizar a partitura.</p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Desenvolvido com ❤️</p>
+        </footer>
+    </div>
+    <script src="music_data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
